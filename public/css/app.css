@@ -1,0 +1,104 @@
+html, body {
+  min-height: 100vh;
+  margin: 0;
+}
+*{
+  box-sizing:border-box;
+}
+
+body{
+  background-attachment: fixed;
+  background-image: url("../images/bg-2.png");
+  font-family: 'Alata', cursive;
+  font-size: 24px;
+}
+ul{
+  list-style-type: none;
+}
+h1{
+  background-color: white;
+  margin:0px 0px 10px 0px;
+  padding: 10px;
+  border: solid 1px tomato;
+}
+.main-container{
+  width: 1140px;
+  margin: 0 auto;
+  border: lime solid 1px;
+}
+
+.main-header{
+  background-color: tomato;
+  width: 100%;
+  margin: 0 auto;
+  overflow:hidden;
+  border: orangered solid 1px;
+  margin-bottom: 20px;
+}
+
+.main-header img{
+  float:left;
+  margin-top:25px;
+  margin-left:5px;
+}
+.left-navbar{
+  float:left;
+}
+.right-navbar{
+  float:right;
+  margin-right:10px;
+}
+.left-navbar ul li{
+  display: inline-block;
+  margin: 5px;
+}
+.right-navbar ul li{
+  display: inline-block;
+  margin: 5px;
+}
+.left-navbar li a{
+  color:#fff;
+  text-transform:uppercase;
+  text-decoration:none;
+}
+.right-navbar li a{
+  color:#fff;
+  text-transform:uppercase;
+  text-decoration:none;
+}
+.main-body{
+  background-color: lightblue;
+  overflow:hidden;
+}
+.left-section{
+  width: 800px;
+  background-color: white;
+  float:left;
+  padding:10px;
+  box-sizing:border-box;
+}
+.right-section{
+  width: 320px;
+  background-color: yellow;
+  float:right;
+  box-sizing:border-box;
+}
+.product-box{
+  font-size: 14px;
+  width:380px;
+  box-sizing:border-box;
+  border: solid 1px lightcoral;
+  padding: 10px;
+  float: left;
+  margin:10px 0px 0px 5px;
+}
+.product-box img{
+  display:block;
+  margin:0 auto;
+}
+@media (max-width:1000px){
+  body{
+  background-attachment: fixed;
+    background-image: url("http://thepatternlibrary.com/img/a.jpg");
+  }
+}
